@@ -6,8 +6,8 @@
 name: build and deploy Sentinel
 resources:
  pipelines:
-   - pipeline: Scripts
-     source: 'scriptsCI'
+   - pipeline: scriptsCI
+     source: 'scripts'
 trigger:
  paths:
    include:
