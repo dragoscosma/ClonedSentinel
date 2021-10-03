@@ -11,7 +11,7 @@ resources:
 trigger:
  paths:
    include:
-     - Onboarding/*
+     - Scripts/*
 
 stages:
 - stage: build_onboarding_file
